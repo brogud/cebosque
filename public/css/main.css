@@ -4245,7 +4245,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* =================================== */
 .footer-area {
   background: #04091e;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .footer-area .footer-nav li {
