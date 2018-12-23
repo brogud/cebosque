@@ -13,6 +13,17 @@
     </head>  
 
     <body>
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
         @include('header')
 
         <section class="popular-destination-area section-gap">
@@ -69,7 +80,75 @@
             </div>	
         </section>
 
+        <section class="testimonial-area section-gap">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="menu-content pb-70 col-lg-8">
+                        <div class="title text-center">
+                            <h1 class="mb-10">Testimonios de nuestros clientes</h1>
+                            <p>Todos los comentarios son tomados desde nuestra p&aacute;gina de Facebook </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="active-testimonial">
+                        <div class="single-testimonial item d-flex flex-row">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flucy.loboarrollo%2Fposts%2F506889306444584&width=500&show_text=true&appId=520354261780180&height=215" width="500" height="215" style="border:none;overflow:hidden" scrolling="yes" frameborder="1" allowTransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                        <div class="single-testimonial item d-flex flex-row">
+                            <div class="descc">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fanita.granados.900388%2Fposts%2F283667355746704&width=500" width="500" height="215" style="border:none;overflow:hidden" scrolling="no" frameborder="1" allowTransparency="true" allow="encrypted-media"></iframe>
+                            </div>
+                        </div>
+                        <div class="single-testimonial item d-flex flex-row">
+                            <div class="descc">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Frosa.garroalvarado%2Fposts%2F10210099837410746&width=500" width="500" height="160" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>	
+                            </div>
+                        </div>
+                        <div class="single-testimonial item d-flex flex-row">
+                            <div class="descc">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkris.rb.3%2Fposts%2F2354085324633274&width=500" width="500" height="160" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>	
+                            </div>
+                        </div>
+                        <div class="single-testimonial item d-flex flex-row">
+                            <div class="descc">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffrancela.alvarado.35%2Fposts%2F1069170899916878&width=500" width="500" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>	
+                            </div>
+                        </div>
+                        <div class="single-testimonial item d-flex flex-row">
+                            <div class="descc">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdiianacorderocamacho1506%2Fposts%2F2366843823356495&width=500" width="500" height="162" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>   
+                            </div>
+                        </div>		                    		                    
+                    </div>
+                </div>
+            </div>
+        </section>
 
+
+        <section class="home-about-area">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-end">
+                    <div class="col-lg-6 col-md-12 home-about-left">
+                        <h2>
+                            ¿Tiene alguna pregunta? <br>
+                        </h2>
+                        <h1>
+                            Siéntase libre de preguntarnos.<br>
+                        </h1>
+                        <p>
+                            Responderemos lo más antes posible.
+                        </p>
+                        <a href="/contact" class="primary-btn text-uppercase">Contactenos</a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 home-about-right no-padding">
+                        <img class="img-fluid" src="img/about-imgg.jpg" alt="">
+                    </div>
+                </div>
+            </div>	
+        </section>
+
+        
 
 
 
@@ -89,7 +168,7 @@
         <script src="js/jquery.nice-select.min.js"></script>					
         <script src="js/owl.carousel.min.js"></script>							
         <script src="js/mail-script.js"></script>	
-        <script src="js/main.js"></script>	
+        <script src="js/main.js"></script>
 
     </body>
 </html>

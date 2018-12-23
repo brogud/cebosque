@@ -2652,6 +2652,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate(-50%, -50%);
 }
 
+.single-destination .descc {
+  background-color: #fff;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
 .single-destination .desc .price-btn {
   background: #f8b600;
   text-align: center;
@@ -2809,7 +2819,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-testimonial {
-  background-color: #fff;
   padding: 25px 30px 12px 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
