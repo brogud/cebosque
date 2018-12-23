@@ -2074,7 +2074,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-top .header-top-left form {
   width: 10%;
-  
 }
 
 .header-top .header-top-left a {
@@ -2633,7 +2632,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .single-destination .thumb {
@@ -2649,7 +2648,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   width: 100%;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
 }
 
