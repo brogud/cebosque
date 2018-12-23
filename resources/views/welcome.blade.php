@@ -24,6 +24,25 @@
             }(document, 'script', 'facebook-jssdk'));
         </script>
 
+        <section class="banner-area relative">
+            <div class="overlay overlay-bg"></div>				
+            <div class="container">
+                <div class="row fullscreen align-items-center justify-content-between">
+                <div class="col-lg-8 col-md-8 banner-left">
+                            <h6 class="text-white">Lejos de una vida mon&oacute;tona</h6>
+                            <h1 class="text-white">Caba&ntilde;as El Bosque</h1>
+                            <p class="text-white">
+                            Brindamos un excelente servicio, alojamiento, gastronomía y descanso en un lugar rodeado de naturaleza.
+                            </p>
+                            <a href="#" class="primary-btn text-uppercase">¡Comencemos!</a>
+                </div>
+                <div class="col-lg-4 col-md-4 banner-right">
+            
+                </div>
+            </div>	
+            </div>			
+        </section>
+
         @include('header')
 
         <section class="popular-destination-area section-gap">
@@ -125,7 +144,6 @@
             </div>
         </section>
 
-
         <section class="home-about-area">
             <div class="container-fluid">
                 <div class="row align-items-center justify-content-end">
@@ -148,11 +166,6 @@
             </div>	
         </section>
 
-        
-
-
-
-    
         @include('footer')
 
         <script src="js/vendor/jquery-2.2.4.min.js"></script>
