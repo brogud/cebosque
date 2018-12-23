@@ -2068,11 +2068,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.header-top .header-top-left{
+  padding: 0;
+}
+
+.header-top .header-top-left form {
+  width: 10%;
+  
+}
+
 .header-top .header-top-left a {
   margin-right: 8px;
 }
 
-.header-top .header-top-right {
+.header-top .header-top-right{
   text-align: right;
 }
 
@@ -2097,7 +2106,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-menu {
   padding-bottom: 20px;
   padding-top: 20px;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(34, 34, 34, 0.7);
   padding-left: 15px;
   padding-right: 15px;
 }
