@@ -34,7 +34,8 @@
                             <p class="text-white">
                             Brindamos un excelente servicio, alojamiento, gastronomía y descanso en un lugar rodeado de naturaleza.
                             </p>
-                            <a href="#" class="primary-btn text-uppercase">¡Comencemos!</a>
+                            <a href="#" id="starting" data-attr-scroll="#1" class="scrollto primary-btn text-uppercase">¡Comencemos!</a>
+                            
                 </div>
                 <div class="col-lg-4 col-md-4 banner-right">
             
@@ -45,7 +46,7 @@
 
         @include('header')
 
-        <section class="popular-destination-area section-gap">
+        <section id="1" data-scroll-offset="60" class="popular-destination-area section-gap">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-70 col-lg-8">
@@ -99,7 +100,7 @@
             </div>	
         </section>
 
-        <section class="testimonial-area section-gap">
+        <section id="2" data-scroll-offset="60" class="testimonial-area section-gap">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-70 col-lg-8">
@@ -144,7 +145,7 @@
             </div>
         </section>
 
-        <section class="home-about-area">
+        <section id="3" data-scroll-offset="60" class="home-about-area">
             <div class="container-fluid">
                 <div class="row align-items-center justify-content-end">
                     <div class="col-lg-6 col-md-12 home-about-left">
@@ -182,6 +183,57 @@
         <script src="js/owl.carousel.min.js"></script>							
         <script src="js/mail-script.js"></script>	
         <script src="js/main.js"></script>
+
+
+        <a href="#" data-attr-scroll="#1" class="float scrollto">
+            <i class="fa fa-plus my-float"></i>
+        </a>
+        <script>
+            counter = 1;
+            jQuery(document).ready(function($) {
+                $(".scrollto").click(function(event) {
+                    event.preventDefault(); 
+
+                    var defaultAnchorOffset = 0;
+
+                    var anchor = $(this).attr('data-attr-scroll');
+
+                    var anchorOffset = $(anchor).attr('data-scroll-offset');
+                    if (!anchorOffset)
+                        anchorOffset = defaultAnchorOffset; 
+
+                    $('html,body').animate({ 
+                        scrollTop: $(anchor).offset().top - anchorOffset
+                    }, 500);  
+
+                    if($(this).attr('id') != 'starting'){
+                        (counter == 3)? counter = 1: counter = counter + 1;
+                        $(this).attr('data-attr-scroll', ("#" + counter));
+                    }else{
+                        counter = 2;
+                    }
+                    
+                });
+            });
+        </script>
+        <style>
+            .float{
+                position:fixed;
+                width:60px;
+                height:60px;
+                bottom:40px;
+                right:40px;
+                background-color:#f8b600;
+                color:#FFF;
+                border-radius:50px;
+                text-align:center;
+                box-shadow: 2px 2px 3px #999;
+            }
+
+            .my-float{
+                margin-top:22px;
+            }
+        </style>
 
     </body>
 </html>
