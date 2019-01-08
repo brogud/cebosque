@@ -34,7 +34,7 @@
             <div class="container">
                 <h3 class="text-heading">Un lugar de relajaci&oacute;n</h3>
                 <p class="sample-text">
-                    Se puede imaginar estar en este hermoso restaurante degustando de un exquisito platillo y disfrutando de la naturaleza y sonidos de las aves, un lugar excelente para relajarse y salir de la rutina. Ofrecemos a todos nuestros clientes alta calidad en cada uno de los platillos ofrecidos en un ambiente de relajaci&oacute;n en medio de la naturaleza con el mejor servicio calificado.
+                    Se puede imaginar estar en este hermoso restaurante degustando de un exquisito platillo y disfrutando de las aves, un lugar excelente para relajarse y salir de la rutina. Ofrecemos a todos nuestros clientes alta calidad en cada uno de los platillos ofrecidos en un ambiente de relajaci&oacute;n en medio de la naturaleza con el mejor servicio calificado.
                 </p>
             </div>
         </section>

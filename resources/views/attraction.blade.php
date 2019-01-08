@@ -32,42 +32,56 @@
 
         <section class="sample-text-area">
             <div class="container">
-                <h3 class="text-heading">Text Sample</h3>
+                <h3 class="text-heading">Un lugar de relajaci&oacute;n</h3>
                 <p class="sample-text">
-                    Every avid independent filmmaker has <b>Bold</b> about making that <i>Italic</i> interest documentary, or short film to show off their creative prowess. Many have great ideas and want to “wow” the<sup>Superscript</sup> scene, or video renters with their big project.  But once you have the<sub>Subscript</sub> “in the can” (no easy feat), how do you move from a <del>Strike</del> through of master DVDs with the <u>“Underline”</u> marked hand-written title inside a secondhand CD case, to a pile of cardboard boxes full of shiny new, retail-ready DVDs, with UPC barcodes and polywrap sitting on your doorstep?  You need to create eye-popping artwork and have your project replicated. Using a reputable full service DVD Replication company like PacificDisc, Inc. to partner with is certainly a helpful option to ensure a professional end result, but to help with your DVD replication project, here are 4 easy steps to follow for good DVD replication results: 
-
+                    Se puede imaginar estar en este hermoso restaurante degustando de un exquisito platillo y disfrutando de las aves, un lugar excelente para relajarse y salir de la rutina. Ofrecemos a todos nuestros clientes alta calidad en cada uno de los platillos ofrecidos en un ambiente de relajaci&oacute;n en medio de la naturaleza con el mejor servicio calificado.
                 </p>
             </div>
         </section>
-
+    
         <div class="whole-wrap">
             <div class="container">
                 <div class="section-top-border">
-                    <h3>Image Gallery</h3>
+                    <h3>Algunas im&aacute;genes</h3>
                     <div class="row gallery-item">
                         <div class="col-md-4">
-                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/14855_1528199240739716_196087037_n.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=fd94c07e1c04e15e6d5c2ad06c781672&oe=5CC74A04" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/14855_1528199240739716_196087037_n.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=fd94c07e1c04e15e6d5c2ad06c781672&oe=5CC74A04);"></div></a>
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/13988235_1989603734599262_5651131763284627895_o.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=595f67587ec8d12613868c0f55ce6332&oe=5CBCB161" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/13988235_1989603734599262_5651131763284627895_o.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=595f67587ec8d12613868c0f55ce6332&oe=5CBCB161);"></div></a>
                         </div>
                         <div class="col-md-4">
-                            <a href="img/i2.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(img/i2.jpg);"></div></a>
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/22549798_2256528674573432_3839340541789347318_n.jpg?_nc_cat=104&_nc_ht=scontent.fsyq1-1.fna&oh=71210d3bf184f927cf14e0a8dbb33b14&oe=5CCF508A" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/22549798_2256528674573432_3839340541789347318_n.jpg?_nc_cat=104&_nc_ht=scontent.fsyq1-1.fna&oh=71210d3bf184f927cf14e0a8dbb33b14&oe=5CCF508A);"></div></a>
                         </div>
                         <div class="col-md-4">
-                            <a href="img/i3.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(img/i3.jpg);"></div></a>
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12107995_1837614743131496_2650133794150495662_n.jpg?_nc_cat=109&_nc_ht=scontent.fsyq1-1.fna&oh=8602dac8b4aef15a6fba7b7e57be77c9&oe=5CBC6111" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12107995_1837614743131496_2650133794150495662_n.jpg?_nc_cat=109&_nc_ht=scontent.fsyq1-1.fna&oh=8602dac8b4aef15a6fba7b7e57be77c9&oe=5CBC6111);"></div></a>
                         </div>
                         <div class="col-md-6">
-                            <a href="img/i4.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(img/i4.jpg);"></div></a>
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12038069_1828326774060293_8662274472463817474_n.jpg?_nc_cat=106&_nc_ht=scontent.fsyq1-1.fna&oh=91a5ff2410c1b371ee6943d4d7099c6f&oe=5CC22C8D" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12038069_1828326774060293_8662274472463817474_n.jpg?_nc_cat=106&_nc_ht=scontent.fsyq1-1.fna&oh=91a5ff2410c1b371ee6943d4d7099c6f&oe=5CC22C8D);"></div></a>
                         </div>
                         <div class="col-md-6">
-                            <a href="img/i5.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(img/i5.jpg);"></div></a>
+                                <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12495245_1890939161132387_7670911377213260160_n.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=18f61f4c42a71367b9bd744fa6f25624&oe=5CD44511" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12495245_1890939161132387_7670911377213260160_n.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=18f61f4c42a71367b9bd744fa6f25624&oe=5CD44511);"></div></a>
                         </div>
                         <div class="col-md-4">
-                            <a href="img/i6.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(img/i6.jpg);"></div></a>
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12107030_1904415746451395_2858131242978302114_n.jpg?_nc_cat=103&_nc_ht=scontent.fsyq1-1.fna&oh=0a9e183428a5a99d153003edc5c3b296&oe=5CD58839" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12107030_1904415746451395_2858131242978302114_n.jpg?_nc_cat=103&_nc_ht=scontent.fsyq1-1.fna&oh=0a9e183428a5a99d153003edc5c3b296&oe=5CD58839);"></div></a>
                         </div>
                         <div class="col-md-4">
-                            <a href="img/i7.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(img/i7.jpg);"></div></a>
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/26195515_2300777866815179_6765813599134107223_n.jpg?_nc_cat=110&_nc_ht=scontent.fsyq1-1.fna&oh=28ed233ab057ea4b1196822d488da970&oe=5CD5F8E9" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/26195515_2300777866815179_6765813599134107223_n.jpg?_nc_cat=110&_nc_ht=scontent.fsyq1-1.fna&oh=28ed233ab057ea4b1196822d488da970&oe=5CD5F8E9);"></div></a>
                         </div>
                         <div class="col-md-4">
-                            <a href="img/i8.jpg" class="img-gal"><div class="single-gallery-image" style="background: url(img/i8.jpg);"></div></a>
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12717705_1886492768243693_482603690720239138_n.jpg?_nc_cat=101&_nc_ht=scontent.fsyq1-1.fna&oh=0da362cb78e3b9595d548e45e5c5777d&oe=5C8E835D" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12717705_1886492768243693_482603690720239138_n.jpg?_nc_cat=101&_nc_ht=scontent.fsyq1-1.fna&oh=0da362cb78e3b9595d548e45e5c5777d&oe=5C8E835D);"></div></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/15156828_2047813795444922_2645707550876378111_o.jpg?_nc_cat=111&_nc_ht=scontent.fsyq1-1.fna&oh=5dc19a423dd6b08013ccd5ca41bc2b90&oe=5CC61878" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/15156828_2047813795444922_2645707550876378111_o.jpg?_nc_cat=111&_nc_ht=scontent.fsyq1-1.fna&oh=5dc19a423dd6b08013ccd5ca41bc2b90&oe=5CC61878);"></div></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/13092008_1926271930932443_675999815624466207_n.jpg?_nc_cat=105&_nc_ht=scontent.fsyq1-1.fna&oh=79885e90c0d43a4a6423f5ac34444632&oe=5CD3125B" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/13092008_1926271930932443_675999815624466207_n.jpg?_nc_cat=105&_nc_ht=scontent.fsyq1-1.fna&oh=79885e90c0d43a4a6423f5ac34444632&oe=5CD3125B);"></div></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/12017459_1827920774100893_4178002221807477539_o.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=7ed9f4c05dfe89f0c582be27f496492d&oe=5CD1C2F2" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/12017459_1827920774100893_4178002221807477539_o.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=7ed9f4c05dfe89f0c582be27f496492d&oe=5CD1C2F2);"></div></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/13239134_1935988693294100_5973085468154579964_n.jpg?_nc_cat=110&_nc_ht=scontent.fsyq1-1.fna&oh=651fd4aa87f2aa0d00a1044d90fce06a&oe=5CCEFBA7" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/13239134_1935988693294100_5973085468154579964_n.jpg?_nc_cat=110&_nc_ht=scontent.fsyq1-1.fna&oh=651fd4aa87f2aa0d00a1044d90fce06a&oe=5CCEFBA7);"></div></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/34984723_2396600677232897_4479000064743702528_n.jpg?_nc_cat=106&_nc_ht=scontent.fsyq1-1.fna&oh=9b2285f58403d91b69374627b845bf56&oe=5CD68771" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/34984723_2396600677232897_4479000064743702528_n.jpg?_nc_cat=106&_nc_ht=scontent.fsyq1-1.fna&oh=9b2285f58403d91b69374627b845bf56&oe=5CD68771);"></div></a>
                         </div>
                     </div>
                 </div>
