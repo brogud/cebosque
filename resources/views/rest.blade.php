@@ -42,7 +42,7 @@
         <div class="whole-wrap">
             <div class="container">
                 <div class="section-top-border">
-                    <h3>Algunas imagenes</h3>
+                    <h3>Algunas im&aacute;genes</h3>
                     <div class="row gallery-item">
                         <div class="col-md-4">
                             <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/14855_1528199240739716_196087037_n.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=fd94c07e1c04e15e6d5c2ad06c781672&oe=5CC74A04" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/14855_1528199240739716_196087037_n.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=fd94c07e1c04e15e6d5c2ad06c781672&oe=5CC74A04);"></div></a>
