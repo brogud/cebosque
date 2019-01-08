@@ -21,9 +21,9 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Nuestras cabañas				
+								Nuestras caba&ntilde;as				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="insurance.html"> Caba&ntilde;as</a></p>
+							<p class="text-white link-nav"><a href="index.html">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="#"> Caba&ntilde;as</a></p>
 						</div>	
 					</div>
 				</div>

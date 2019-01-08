@@ -55,7 +55,7 @@
                             <div class="desc">		
                                 <h4>Caba&ntilde;as de madera</h4>
                                 <p>rodeadas de un gran bosque</p>	
-                                <a href="#" class="price-btn">Conoce más</a>		
+                                <a href="/cab" class="price-btn">Conoce más</a>		
                             </div>
                         </div>
                     </div>
