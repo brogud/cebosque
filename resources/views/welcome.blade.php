@@ -13,17 +13,6 @@
     </head>  
 
     <body>
-
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
-
         <section class="banner-area relative">
             <div class="overlay overlay-bg"></div>				
             <div class="container">
@@ -46,7 +35,7 @@
 
         @include('header')
 
-        <section id="1" data-scroll-offset="60" class="popular-destination-area section-gap">
+        <section id="1" data-scroll-offset="70" class="popular-destination-area section-gap">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-70 col-lg-8">
@@ -100,7 +89,7 @@
             </div>	
         </section>
 
-        <section id="2" data-scroll-offset="60" class="testimonial-area section-gap">
+        <section id="2" data-scroll-offset="50" class="testimonial-area section-gap">
             <div class="container">
                 <div class="row d-flex justify-content-center">
                     <div class="menu-content pb-70 col-lg-8">
@@ -145,7 +134,7 @@
             </div>
         </section>
 
-        <section id="3" data-scroll-offset="60" class="home-about-area">
+        <section id="3" data-scroll-offset="70" class="home-about-area">
             <div class="container-fluid">
                 <div class="row align-items-center justify-content-end">
                     <div class="col-lg-6 col-md-12 home-about-left">
@@ -172,7 +161,6 @@
         <script src="js/vendor/jquery-2.2.4.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>			
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>		
         <script src="js/jquery-ui.js"></script>					
         <script src="js/easing.min.js"></script>			
         <script src="js/hoverIntent.js"></script>
@@ -185,9 +173,9 @@
         <script src="js/main.js"></script>
 
 
-        <a href="#" data-attr-scroll="#1" class="float scrollto">
+        <!--<a href="#" data-attr-scroll="#1" class="float scrollto">
             <i class="fa fa-plus my-float"></i>
-        </a>
+        </a>-->
         <script>
             counter = 1;
             jQuery(document).ready(function($) {
