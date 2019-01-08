@@ -28,7 +28,7 @@
 					</div>
 				</div>
 			</section>
-            <!-- tucan oropendula End banner Area -->	
+            <!-- End banner Area -->	
             
             
  
@@ -81,7 +81,7 @@
 					</div>
 				</div>	
 			</section>
-            <!-- End insurence-one Area -->
+            <!-- End cab-three Area -->
             
             <!-- Start cab-four Area -->
 			<section class="insurence-two-area pb-120">
@@ -98,7 +98,7 @@
 					</div>
 				</div>	
 			</section>
-            <!-- End insurence-four Area -->	
+            <!-- End cab-four Area -->	
 
             <!-- Start cab-five Area -->
 			<section class="insurence-one-area section-gap">
@@ -115,7 +115,7 @@
 					</div>
 				</div>	
 			</section>
-            <!-- End insurence-five Area -->
+            <!-- End cab-five Area -->
 			
             
         @include('footer')

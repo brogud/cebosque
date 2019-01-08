@@ -46,7 +46,8 @@ class IndexController extends Controller
         );
         
         if (array_key_exists($cabName, $cabArray)) {
-            return view('cabDetail')->with('cabDetail', $cabArray[$cabName]);
+            return view('cabDetail', ['cabDetail' => $cabArray[$cabName]]);
+            //->with('cabDetail', $cabArray[$cabName]);
         }
 
         return redirect()->action('IndexController@index');
