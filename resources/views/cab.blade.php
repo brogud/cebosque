@@ -41,7 +41,7 @@
 						<div class="col-md-6 float-md-left insurence-right">
 							<h1>Caba&ntilde;a Tuc&aacute;n</h1>
 							<p>Caba&ntilde;a equipada con art&iacute;culos b&aacute;sicos para la preparaci&oacute;n de alimentos, al igual posee un servicio sanitario junto con un ba&ntilde;o, una cama matrimonial, Televisi&oacute;n con se&ntilde;al sat&eacute;lite, tambi&eacute;n contiene un balc&oacute;n donde se observa el Valle de Turrialba, la Cordillera de Talamanca y la gran vegetaci&oacute;n presente a su alrededor donde pueden ser visitados por una serie de aves.</p>
-                            <a href="#" class="primary-btn text-uppercase">Ver m&aacute;s</a>
+                            <a href="/cab/tucan" class="primary-btn text-uppercase">Ver m&aacute;s</a>
 						</div>
 					</div>
 				</div>	
@@ -58,7 +58,7 @@
 						<div class="col-md-6 insurence-right">
 							<h1>Caba&ntilde;a Momot</h1>
 							<p>Caba&ntilde;a equipada con art&iacute;culos b&aacute;sicos para la preparaci&oacute;n de alimentos, una sala en la planta baja, al igual en la planta alta posee un servicio sanitario junto con un ba&ntilde;o, dos habitaciones (una con dos camas matromoniales y a otra con una cama matrimonial), tambi&eacute;n contine un balc&oacute;n donde se observa el Valle de Turrialba, la Cordillera de Talamanca y la gran vegetaci&oacute;n presente a su alrededor donde pueden ser visitados por una serie de aves</p>
-							<a href="#" class="primary-btn text-uppercase">Ver m&aacute;s</a>
+							<a href="/cab/momot" class="primary-btn text-uppercase">Ver m&aacute;s</a>
 						</div>					
 					</div>
 				</div>	
@@ -75,7 +75,7 @@
 						<div class="col-md-6 insurence-right">
 							<h1>Caba&ntilde;a Colibr&iacute;</h1>
 							<p>Caba&ntilde;a equipada con art&iacute;culos b&aacute;sicos, con servicio sanitario y ba&ntilde;o; al igual posee un sofa cama junto a una cama matrimonial. En la planta baja posee espacio para estacionar veh&iacute;culo.</p>
-                            <a href="#" class="primary-btn text-uppercase">Ver m&aacute;s</a>
+                            <a href="/cab/colibri" class="primary-btn text-uppercase">Ver m&aacute;s</a>
                         </div>
 					</div>
 				</div>	
@@ -92,7 +92,7 @@
 						<div class="col-md-6 insurence-left">
 							<h1>Caba&ntilde;a La Lechuza</h1>
 							<p>Caba&ntilde;a equipada con art&iacute;culos b&aacute;sicos para la preparaci&oacute;n de alimentos, una sala en la planta baja, al igual en la planta alta posee un servicio sanitario junto con un ba&ntilde;o, dos habitaciones (una con dos camas matromoniales y a otra con una cama matrimonial), tambi&eacute;n contine un balc&oacute;n donde se observa el Valle de Turrialba, la Cordillera de Talamanca y la gran vegetaci&oacute;n presente a su alrededor donde pueden ser visitados por una serie de aves</p>
-							<a href="#" class="primary-btn text-uppercase">Ver m&aacute;s</a>
+							<a href="/cab/lechuza" class="primary-btn text-uppercase">Ver m&aacute;s</a>
 						</div>			
 					</div>
 				</div>	
@@ -109,7 +109,7 @@
 						<div class="col-md-6 insurence-right">
                             <h1>Caba&ntilde;a orop&eacute;ndula</h1>
 							<p>Caba&ntilde;a equipada con cama matrimonial, ba&ntilde;o con ducha, refrigeradora, cocina el&eacute;ctrica, sillon para descanso, balc&oacute;n con vista a nuestro bosque en regeneraci&oacute;n.</p>
-							<a href="#" class="primary-btn text-uppercase">Ver m&aacute;s</a>
+							<a href="oropendula" class="primary-btn text-uppercase">Ver m&aacute;s</a>
                         </div>
 					</div>
 				</div>	
