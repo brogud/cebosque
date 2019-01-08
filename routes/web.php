@@ -17,7 +17,7 @@ Route::get('/contact', 'IndexController@contact');
 
 Route::get('/rest', 'IndexController@rest');
 
-Route::get('/rest', 'IndexController@attraction');
+Route::get('/attractions', 'IndexController@attraction');
 
 Route::get('/cab', 'CabController@index');
 

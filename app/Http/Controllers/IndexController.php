@@ -17,6 +17,7 @@ class IndexController extends Controller
     public function attraction(){
         return view('attraction');
     }
+    
     public function contact(){
         return view('contact');
     }
