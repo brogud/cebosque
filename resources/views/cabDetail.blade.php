@@ -28,7 +28,7 @@
                 </div>
             </div>
         </section>
-        
+        {{ print_r($cabDetail) }}
 
         <section class="sample-text-area">
             <div class="container">
