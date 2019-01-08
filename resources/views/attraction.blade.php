@@ -57,8 +57,8 @@
                             <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12038069_1828326774060293_8662274472463817474_n.jpg?_nc_cat=106&_nc_ht=scontent.fsyq1-1.fna&oh=91a5ff2410c1b371ee6943d4d7099c6f&oe=5CC22C8D" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12038069_1828326774060293_8662274472463817474_n.jpg?_nc_cat=106&_nc_ht=scontent.fsyq1-1.fna&oh=91a5ff2410c1b371ee6943d4d7099c6f&oe=5CC22C8D);"></div></a>
                         </div>
                         <div class="col-md-6">
-                                <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12495245_1890939161132387_7670911377213260160_n.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=18f61f4c42a71367b9bd744fa6f25624&oe=5CD44511" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12495245_1890939161132387_7670911377213260160_n.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=18f61f4c42a71367b9bd744fa6f25624&oe=5CD44511);"></div></a>
-                        </div>
+                                <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/10406477_1866232790269691_9219941106619912122_n.jpg?_nc_cat=100&_nc_ht=scontent.fsyq1-1.fna&oh=646a5ebdf0597f16639714c8205aafbf&oe=5C90295F" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/10406477_1866232790269691_9219941106619912122_n.jpg?_nc_cat=100&_nc_ht=scontent.fsyq1-1.fna&oh=646a5ebdf0597f16639714c8205aafbf&oe=5C90295F);"></div></a>
+                            </div>
                         <div class="col-md-4">
                             <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12107030_1904415746451395_2858131242978302114_n.jpg?_nc_cat=103&_nc_ht=scontent.fsyq1-1.fna&oh=0a9e183428a5a99d153003edc5c3b296&oe=5CD58839" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12107030_1904415746451395_2858131242978302114_n.jpg?_nc_cat=103&_nc_ht=scontent.fsyq1-1.fna&oh=0a9e183428a5a99d153003edc5c3b296&oe=5CD58839);"></div></a>
                         </div>
@@ -68,12 +68,13 @@
                         <div class="col-md-4">
                             <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12717705_1886492768243693_482603690720239138_n.jpg?_nc_cat=101&_nc_ht=scontent.fsyq1-1.fna&oh=0da362cb78e3b9595d548e45e5c5777d&oe=5C8E835D" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12717705_1886492768243693_482603690720239138_n.jpg?_nc_cat=101&_nc_ht=scontent.fsyq1-1.fna&oh=0da362cb78e3b9595d548e45e5c5777d&oe=5C8E835D);"></div></a>
                         </div>
-                        <div class="col-md-6">
-                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/15156828_2047813795444922_2645707550876378111_o.jpg?_nc_cat=111&_nc_ht=scontent.fsyq1-1.fna&oh=5dc19a423dd6b08013ccd5ca41bc2b90&oe=5CC61878" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/15156828_2047813795444922_2645707550876378111_o.jpg?_nc_cat=111&_nc_ht=scontent.fsyq1-1.fna&oh=5dc19a423dd6b08013ccd5ca41bc2b90&oe=5CC61878);"></div></a>
-                        </div>
+                            <div class="col-md-6">
+                                    <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12495245_1890939161132387_7670911377213260160_n.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=18f61f4c42a71367b9bd744fa6f25624&oe=5CD44511" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12495245_1890939161132387_7670911377213260160_n.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=18f61f4c42a71367b9bd744fa6f25624&oe=5CD44511);"></div></a>
+                            </div>
                         <div class="col-md-6">
                             <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/13092008_1926271930932443_675999815624466207_n.jpg?_nc_cat=105&_nc_ht=scontent.fsyq1-1.fna&oh=79885e90c0d43a4a6423f5ac34444632&oe=5CD3125B" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/13092008_1926271930932443_675999815624466207_n.jpg?_nc_cat=105&_nc_ht=scontent.fsyq1-1.fna&oh=79885e90c0d43a4a6423f5ac34444632&oe=5CD3125B);"></div></a>
                         </div>
+                        
                         <div class="col-md-4">
                             <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/12017459_1827920774100893_4178002221807477539_o.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=7ed9f4c05dfe89f0c582be27f496492d&oe=5CD1C2F2" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/12017459_1827920774100893_4178002221807477539_o.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=7ed9f4c05dfe89f0c582be27f496492d&oe=5CD1C2F2);"></div></a>
                         </div>
@@ -83,6 +84,12 @@
                         <div class="col-md-4">
                             <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/34984723_2396600677232897_4479000064743702528_n.jpg?_nc_cat=106&_nc_ht=scontent.fsyq1-1.fna&oh=9b2285f58403d91b69374627b845bf56&oe=5CD68771" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/34984723_2396600677232897_4479000064743702528_n.jpg?_nc_cat=106&_nc_ht=scontent.fsyq1-1.fna&oh=9b2285f58403d91b69374627b845bf56&oe=5CD68771);"></div></a>
                         </div>
+                        <div class="col-md-6">
+                                <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/15156828_2047813795444922_2645707550876378111_o.jpg?_nc_cat=111&_nc_ht=scontent.fsyq1-1.fna&oh=5dc19a423dd6b08013ccd5ca41bc2b90&oe=5CC61878" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/15156828_2047813795444922_2645707550876378111_o.jpg?_nc_cat=111&_nc_ht=scontent.fsyq1-1.fna&oh=5dc19a423dd6b08013ccd5ca41bc2b90&oe=5CC61878);"></div></a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/14053918_1992835990942703_5993043853202478990_o.jpg?_nc_cat=100&_nc_ht=scontent.fsyq1-1.fna&oh=67d238b1946a53286e328d0ec867bd78&oe=5CC6291B" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/14053918_1992835990942703_5993043853202478990_o.jpg?_nc_cat=100&_nc_ht=scontent.fsyq1-1.fna&oh=67d238b1946a53286e328d0ec867bd78&oe=5CC6291B);"></div></a>
+                            </div>
                     </div>
                 </div>
             </div>
