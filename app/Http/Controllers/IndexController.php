@@ -21,4 +21,20 @@ class IndexController extends Controller
     public function contact(){
         return view('contact');
     }
+
+    public function cab() {
+        return view('cab');
+    }
+
+    public function cabShowMomot() {
+        return view('cabMomot');
+    }
+
+    public function cabShowTucan(){
+        return view('cabTucan');
+    }
+
+    public function cabShowOropendula(){
+        return view('cabOropendula');
+    }
 }

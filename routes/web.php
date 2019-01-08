@@ -19,10 +19,16 @@ Route::get('/rest', 'IndexController@rest');
 
 Route::get('/attractions', 'IndexController@attraction');
 
-Route::get('/cab', 'CabController@index');
+Route::get('/cab', 'IndexController@cab');
 
-Route::get('/cab/{id}', 'CabController@show')->where('id','[0-9]+');
+Route::get('/cab/Momot', 'IndexController@cabShowMomot');
 
+Route::get('/cab/Tucan', 'IndexController@cabShowTucan');
+
+Route::get('/cab/Oropendula', 'IndexController@cabShowOropendula');
+/*
+Route::get('/cab/{id}', 'IndexController@show')->where('id','[0-9]+');
+*/
 /*
 Route::get('/cab/new', function () {
     return "New";
