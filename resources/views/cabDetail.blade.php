@@ -1,15 +1,15 @@
 @include('head')
 
-            <!-- CSS -->
-            <link rel="stylesheet" href="{{ URL::asset('/css/linearicons.css') }}">
-            <link rel="stylesheet" href="{{ URL::asset('/css/font-awesome.min.css') }}">
-            <link rel="stylesheet" href="{{ URL::asset('/css/bootstrap.css') }}">
-            <link rel="stylesheet" href="{{ URL::asset('/css/magnific-popup.css') }}">
-            <link rel="stylesheet" href="{{ URL::asset('/css/jquery-ui.css') }}">				
-            <link rel="stylesheet" href="{{ URL::asset('/css/nice-select.css') }}">							
-            <link rel="stylesheet" href="{{ URL::asset('/css/animate.min.css') }}">
-            <link rel="stylesheet" href="{{ URL::asset('/css/owl.carousel.css') }}">				
-            <link rel="stylesheet" href="{{ URL::asset('/css/main.css') }}">
+        <!-- CSS -->
+        <link rel="stylesheet" href="{{ URL::asset('/css/linearicons.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('/css/font-awesome.min.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('/css/bootstrap.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('/css/magnific-popup.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('/css/jquery-ui.css') }}">				
+        <link rel="stylesheet" href="{{ URL::asset('/css/nice-select.css') }}">							
+        <link rel="stylesheet" href="{{ URL::asset('/css/animate.min.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('/css/owl.carousel.css') }}">				
+        <link rel="stylesheet" href="{{ URL::asset('/css/main.css') }}">
     </head>  
 
     <body>
@@ -17,14 +17,14 @@
 
         <section class="relative about-banner">	
             <div class="overlay overlay-bg"></div>
-            <div class="container">				
+            <div class="container">
                 <div class="row d-flex align-items-center justify-content-center">
                     <div class="about-content col-lg-12">
                         <h1 class="text-white">
                             Caba&ntilde;a {{ $cabDetail['cabName'] }}	
-                        </h1>	
-                        <p class="text-white link-nav"><a href="/">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="/contact"> Caba&ntilde;a {{ $cabDetail['cabName'] }}</a></p>
-                    </div>	
+                        </h1>
+                        <p class="text-white link-nav"><a href="/">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="/cab"> Caba&ntilde;as </a> <span class="lnr lnr-arrow-right"></span> <a href="/#"> Caba&ntilde;a  {{ $cabDetail['cabName'] }}</a>  </p>
+                    </div>
                 </div>
             </div>
         </section>
