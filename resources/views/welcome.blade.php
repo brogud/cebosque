@@ -68,7 +68,7 @@
                             <div class="desc">			
                                 <h4>Restaurante</h4>
                                 <p>Gastronomía costarricense</p>	
-                                <a href="#" class="price-btn">Conoce más</a>		
+                                <a href="/rest" class="price-btn">Conoce más</a>		
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <div class="desc">			
                                 <h4>Atracciones</h4>
                                 <p>piscinas, senderos y más</p>	
-                                <a href="#" class="price-btn">Conoce más</a>		
+                                <a href="/attractions" class="price-btn">Conoce más</a>		
                             </div>
                         </div>
                     </div>												

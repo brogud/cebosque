@@ -18,7 +18,14 @@
           <nav id="nav-menu-container">
             <ul class="nav-menu">
               <li><a href="/">Inicio</a></li>
-              </li>					          					          		          
+              </li>	
+              <li class="menu-has-children parent-active"><a href="" class="sf-with-ul">Pages</a>
+                <ul style="display: none;">
+                    <li><a href="#" class="menu-active">Caba&ntilde;as</a></li>
+                    <li><a href="/rest" class="menu-active">Restaurante</a></li>
+                    <li><a href="/attraction" class="menu-active">Atracciones</a></li>           		
+                </ul>
+              </li>			          					          		          
             <li><a href="/contact">Contacto</a></li>
             </ul>
           </nav><!-- #nav-menu-container -->					      		  
