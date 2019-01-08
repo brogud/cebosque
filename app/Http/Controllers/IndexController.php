@@ -10,6 +10,13 @@ class IndexController extends Controller
         return view('welcome');
     }
 
+    public function rest(){
+        return view('rest');
+    }
+
+    public function attraction(){
+        return view('attraction');
+    }
     public function contact(){
         return view('contact');
     }

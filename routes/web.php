@@ -15,6 +15,10 @@ Route::get('/','IndexController@index');
 
 Route::get('/contact', 'IndexController@contact');
 
+Route::get('/rest', 'IndexController@rest');
+
+Route::get('/rest', 'IndexController@attraction');
+
 Route::get('/cab', 'CabController@index');
 
 Route::get('/cab/{id}', 'CabController@show')->where('id','[0-9]+');
