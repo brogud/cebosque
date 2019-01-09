@@ -53,7 +53,7 @@
                                 <img class="img-fluid" src="img/d1.jpg" alt="">
                             </div>
                             <div class="desc">		
-                                <h4>Caba&ntilde;as de madera</h4>
+                                <h4>Caba&ntilde;as R&uacute;sticas</h4>
                                 <p>rodeadas de un gran bosque</p>	
                                 <a href="/cab" class="price-btn">Conoce más</a>		
                             </div>
