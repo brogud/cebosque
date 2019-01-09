@@ -1,6 +1,8 @@
 @include('head')
 
         <!-- CSS -->
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ URL::asset('/css/linearicons.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('/css/font-awesome.min.css') }}">
         <link rel="stylesheet" href="{{ URL::asset('/css/bootstrap.css') }}">
@@ -14,16 +16,16 @@
 
     <body>
         @include('header')
-
+        
         <section class="relative about-banner">	
             <div class="overlay overlay-bg"></div>
             <div class="container">
                 <div class="row d-flex align-items-center justify-content-center">
                     <div class="about-content col-lg-12">
                         <h1 class="text-white">
-                            Caba&ntilde;a {{ $cabDetail['cabName'] }}	
+                            Caba&ntilde;a {{ $cabin->getName() }}
                         </h1>
-                        <p class="text-white link-nav"><a href="/">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="/cab"> Caba&ntilde;as </a> <span class="lnr lnr-arrow-right"></span> <a href="/#"> Caba&ntilde;a  {{ $cabDetail['cabName'] }}</a>  </p>
+                        <p class="text-white link-nav"><a href="/">Inicio </a>  <span class="lnr lnr-arrow-right"></span>  <a href="/cab"> Caba&ntilde;as </a> <span class="lnr lnr-arrow-right"></span> <a href="#"> Caba&ntilde;a {{ $cabin->getName() }} </a>  </p>
                     </div>
                 </div>
             </div>
@@ -31,28 +33,29 @@
 
         <section class="sample-text-area">
             <div class="container">
-                <h3 class="text-heading">Un lugar de relajaci&oacute;n</h3>
+                <h3 class="text-heading">Sobre la caba&ntilde;a</h3>
                 <p class="sample-text">
-                {{ $cabDetail['cabDescription'] }}
+                    {{ $cabin->getDescription() }}  
                 </p>
             </div>
         </section>
 
         <section>
             <div class="container">
-
-                <h3 class="text-heading">Servicios incluidos</h3>
+                <h3 class="text-heading mb-5">Servicios incluidos</h3>
                 <div class="row align-items-center">
-                @foreach ($cabDetail['cabServices'] as $service)
-                    <div class="col-lg-4 col-md-6 d-flex flex-column">
-                        <div class="col-lg-12 text-center"> 
-                            <span class="service-icon lnr {{ $service['icon'] }}"></span>
+                    
+                @foreach ($cabin->getServices() as $service)
+                    <div class="mb-5 col-lg-4 col-md-6 d-flex flex-column">
+                        <div class="mb-2 col-lg-12 text-center"> 
+                            <span class="service-icon {{ $service->getIcon() }}"></span>
                         </div>
                         <div class="col-lg-12 text-center">
-                            <h5>{{ $service['description'] }}</h5>
+                            <h6> {{ $service->getName() }} </h6>
                         </div>
                     </div>
                 @endforeach
+                
                 </div>
             </div>
 
@@ -61,32 +64,13 @@
         <div class="whole-wrap">
             <div class="container">
                 <div class="section-top-border">
-                    <h3>Algunas im&aacute;genes</h3>
+                    <h3>Galer&iacute;a</h3>
                     <div class="row gallery-item">
+                        @foreach ($cabin->getImages() as $image)
                         <div class="col-md-4">
-                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/14258212_2004192793140356_3972510419946349629_o.jpg?_nc_cat=105&_nc_ht=scontent.fsyq1-1.fna&oh=2babbf32757a3f28db2c29311c05a018&oe=5CCFFBC2" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/14258212_2004192793140356_3972510419946349629_o.jpg?_nc_cat=105&_nc_ht=scontent.fsyq1-1.fna&oh=2babbf32757a3f28db2c29311c05a018&oe=5CCFFBC2);"></div></a>
+                            <a href="{{ $image }}" class="img-gal"><div class="single-gallery-image" style="background: url({{ $image }});"></div></a>
                         </div>
-                        <div class="col-md-4">
-                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/16707410_2108217972737837_1449289797115424982_o.jpg?_nc_cat=100&_nc_ht=scontent.fsyq1-1.fna&oh=bfab334199c78ffa84bde637501a12a3&oe=5CBE6FF0" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/16707410_2108217972737837_1449289797115424982_o.jpg?_nc_cat=100&_nc_ht=scontent.fsyq1-1.fna&oh=bfab334199c78ffa84bde637501a12a3&oe=5CBE6FF0);"></div></a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12733977_1888095358083434_5844798112947610380_n.jpg?_nc_cat=105&_nc_ht=scontent.fsyq1-1.fna&oh=9da48b0f1c6d42038879caf935be158c&oe=5CD04F55" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12733977_1888095358083434_5844798112947610380_n.jpg?_nc_cat=105&_nc_ht=scontent.fsyq1-1.fna&oh=9da48b0f1c6d42038879caf935be158c&oe=5CD04F55);"></div></a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12990942_1921602458066057_6577824649695620315_n.jpg?_nc_cat=109&_nc_ht=scontent.fsyq1-1.fna&oh=7be6404b51101ce3bba2f15c5362db72&oe=5CC72132" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/12990942_1921602458066057_6577824649695620315_n.jpg?_nc_cat=109&_nc_ht=scontent.fsyq1-1.fna&oh=7be6404b51101ce3bba2f15c5362db72&oe=5CC72132);"></div></a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/21728906_2237560146470285_1616935939962896709_o.jpg?_nc_cat=100&_nc_ht=scontent.fsyq1-1.fna&oh=9d260d1d24b5b9c550ec8bc9ef04e74c&oe=5CD6F9AC" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/21728906_2237560146470285_1616935939962896709_o.jpg?_nc_cat=100&_nc_ht=scontent.fsyq1-1.fna&oh=9d260d1d24b5b9c550ec8bc9ef04e74c&oe=5CD6F9AC);"></div></a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/24955333_2283660141860285_492046646561736894_o.jpg?_nc_cat=103&_nc_ht=scontent.fsyq1-1.fna&oh=68a8388434478f1d4890deacaf4d012c&oe=5CC1BD22" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/24955333_2283660141860285_492046646561736894_o.jpg?_nc_cat=103&_nc_ht=scontent.fsyq1-1.fna&oh=68a8388434478f1d4890deacaf4d012c&oe=5CC1BD22);"></div></a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/36063469_2411386249087673_3590494025532047360_o.jpg?_nc_cat=108&_nc_ht=scontent.fsyq1-1.fna&oh=a19b93d2da3bc48419b66c2c76bb3755&oe=5CBEE6BE" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t1.0-9/36063469_2411386249087673_3590494025532047360_o.jpg?_nc_cat=108&_nc_ht=scontent.fsyq1-1.fna&oh=a19b93d2da3bc48419b66c2c76bb3755&oe=5CBEE6BE);"></div></a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/25398163_2285966471629652_3387624286407602040_o.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=6a737cbe9b7f98bba3597a3852a9326a&oe=5CD4F448" class="img-gal"><div class="single-gallery-image" style="background: url(https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/25398163_2285966471629652_3387624286407602040_o.jpg?_nc_cat=107&_nc_ht=scontent.fsyq1-1.fna&oh=6a737cbe9b7f98bba3597a3852a9326a&oe=5CD4F448);"></div></a>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
             </div>

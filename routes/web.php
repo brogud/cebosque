@@ -23,7 +23,7 @@ Route::get('/attractions', 'IndexController@attraction');
 
 Route::get('/cab', 'IndexController@cab');
 
-Route::get('/cab/{cabName}', 'IndexController@cabShow');
+Route::get('/cab/{cabName}', 'IndexController@showCab');
 
 /*
 Route::get('/cab/{id}', 'IndexController@show')->where('id','[0-9]+');
