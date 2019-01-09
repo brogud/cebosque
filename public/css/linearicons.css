@@ -24,6 +24,12 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.service-icon {
+	font-size: 10rem;
+	color: lightslategrey;
+	text-align: center;
+}
+
 .lnr-home:before {
 	content: "\e800";
 }
