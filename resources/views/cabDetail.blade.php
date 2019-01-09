@@ -34,9 +34,19 @@
         <section class="sample-text-area">
             <div class="container">
                 <h3 class="text-heading">Sobre la caba&ntilde;a</h3>
-                <p class="sample-text">
-                    {{ $cabin->getDescription() }}  
-                </p>
+                <div class="row my-5">
+                    <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+                        @foreach ($cabin->getFeatures() as $feature)
+                            <div class="col-lg-12">
+                                <b><span class="{{ $feature->getIcon() }}"></span></b><b>&nbsp;{{ $feature->getValue() }}</b>&nbsp;{{ $feature->getName()}}
+                            </div>
+                        @endforeach
+                        <a href="#" class="primary-btn text-uppercase mt-2">Reservar</a>
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-sm-12">
+                        {{ $cabin->getDescription() }} 
+                    </div>
+                </div>
             </div>
         </section>
 
