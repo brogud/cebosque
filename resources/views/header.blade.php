@@ -18,6 +18,7 @@
           <nav id="nav-menu-container">
             <ul class="nav-menu">
               <li><a href="/">Inicio</a></li>
+              <li><a href="/about">Sobre nosotros</a></li>
               </li>	
               <li class="menu-has-children parent-active"><a href="" class="sf-with-ul">Servicios</a>
                 <ul style="display: none;">

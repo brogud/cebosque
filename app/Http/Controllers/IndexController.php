@@ -22,6 +22,11 @@ class IndexController extends Controller
         return view('contact');
     }
 
+    public function about(){
+        return view('about');
+    }
+
+
     public function cab() {
         return view('cab');
     }

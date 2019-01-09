@@ -13,6 +13,8 @@
 
 Route::get('/','IndexController@index');
 
+Route::get('/about', 'IndexController@about');
+
 Route::get('/contact', 'IndexController@contact');
 
 Route::get('/rest', 'IndexController@rest');
