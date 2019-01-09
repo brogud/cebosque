@@ -100,36 +100,21 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="active-testimonial">
                         <div class="single-testimonial item d-flex flex-row">
-                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flucy.loboarrollo%2Fposts%2F506889306444584&width=500&show_text=true&appId=520354261780180&height=215" width="500" height="215" style="border:none;overflow:hidden" scrolling="yes" frameborder="1" allowTransparency="true" allow="encrypted-media"></iframe>
-                        </div>
-                        <div class="single-testimonial item d-flex flex-row">
-                            <div class="descc">
-                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fanita.granados.900388%2Fposts%2F283667355746704&width=500" width="500" height="215" style="border:none;overflow:hidden" scrolling="no" frameborder="1" allowTransparency="true" allow="encrypted-media"></iframe>
+                            <div class="descc" style="width: 100%">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flucy.loboarrollo%2Fposts%2F506889306444584&width=auto&show_text=true&appId=520354261780180" height="280" style="border:none;overflow:hidden" frameborder="1" allowTransparency="true" allow="encrypted-media"></iframe>
                             </div>
                         </div>
                         <div class="single-testimonial item d-flex flex-row">
-                            <div class="descc">
-                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Frosa.garroalvarado%2Fposts%2F10210099837410746&width=500" width="500" height="160" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>	
+                            <div class="descc" style="width: 100%">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fanita.granados.900388%2Fposts%2F283667355746704&width=auto" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="1" allowTransparency="true" allow="encrypted-media"></iframe>
                             </div>
                         </div>
                         <div class="single-testimonial item d-flex flex-row">
-                            <div class="descc">
-                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fkris.rb.3%2Fposts%2F2354085324633274&width=500" width="500" height="160" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>	
+                            <div class="descc" style="width: 100%">
+                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffrancela.alvarado.35%2Fposts%2F1069170899916878&width=auto" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>	
                             </div>
-                        </div>
-                        <div class="single-testimonial item d-flex flex-row">
-                            <div class="descc">
-                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffrancela.alvarado.35%2Fposts%2F1069170899916878&width=500" width="500" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>	
-                            </div>
-                        </div>
-                        <div class="single-testimonial item d-flex flex-row">
-                            <div class="descc">
-                                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdiianacorderocamacho1506%2Fposts%2F2366843823356495&width=500" width="500" height="162" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>   
-                            </div>
-                        </div>		                    		                    
-                    </div>
+                        </div>	                    		                    
                 </div>
             </div>
         </section>
