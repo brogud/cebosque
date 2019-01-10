@@ -4512,3 +4512,40 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-text a, .footer-text i {
   color: #f8b600;
 }
+
+.information-box {
+  color: black !important;
+  
+  background-color:#EAE3EA !important;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  text-align: justify;
+  border-bottom: 6px solid #f8b600 !important;
+}
+
+.information-box b{
+  color: #222 !important;
+}
+
+.information-box-title{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-centered-container{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.dark-btn {
+  color: #fff;
+  background: #222;
+  border: 1px solid transparent;
+}
+
+.dark-btn:hover {
+  color: #222;
+  border: 1px solid #f8b600;
+  background: #f8b600;
+}

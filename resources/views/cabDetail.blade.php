@@ -31,60 +31,100 @@
             </div>
         </section>
 
-        <section class="sample-text-area">
-            <div class="container">
-                <h3 class="text-heading">Sobre la caba&ntilde;a</h3>
-                <div class="row my-5">
-                    <div class="col-lg-3 col-md-4 col-sm-12 mb-3">
+        <div class="container">
+            <div class="row">
+                
+                <section class="sample-text-area">
+                    <!-- Description -->
+                    <div class="col-lg-9 col-md-8 col-sm-12 mb-md-5 float-left">
+                        <h3 class="text-heading">Sobre la caba&ntilde;a</h3>
+                        {{ $cabin->getDescription() }} 
+
+
+                    </div>
+                    <!-- End Description -->
+
+                    <!-- Features -->
+                    <div class="col-lg-3 col-md-4 col-sm-12 information-box my-5 border-bottom float-left">
+                        <div class="information-box-title">
+                            <h6>Caracter&iacute;sticas</h6>
+                        </div>
                         @foreach ($cabin->getFeatures() as $feature)
                             <div class="col-lg-12">
                                 <b><span class="{{ $feature->getIcon() }}"></span></b><b>&nbsp;{{ $feature->getValue() }}</b>&nbsp;{{ $feature->getName()}}
                             </div>
                         @endforeach
-                        <a href="#" class="primary-btn text-uppercase mt-2">Reservar</a>
-                    </div>
-                    <div class="col-lg-9 col-md-8 col-sm-12">
-                        {{ $cabin->getDescription() }} 
-                    </div>
-                </div>
-            </div>
-        </section>
+                    </div>      
+                    <!-- End Features --> 
 
-        <section>
-            <div class="container">
-                <h3 class="text-heading mb-5">Servicios incluidos</h3>
-                <div class="row align-items-center">
-                    
-                @foreach ($cabin->getServices() as $service)
-                    <div class="mb-5 col-lg-4 col-md-6 d-flex flex-column">
-                        <div class="mb-2 col-lg-12 text-center"> 
-                            <span class="service-icon {{ $service->getIcon() }}"></span>
-                        </div>
-                        <div class="col-lg-12 text-center">
-                            <h6> {{ $service->getName() }} </h6>
+                    <!-- Services -->
+                    <div class="col-lg-9 col-md-8 col-sm-12 float-left">
+                        <h3 class="text-heading mb-5">Servicios incluidos</h3>
+                        <div class="align-items-center">
+                            @foreach ($cabin->getServices() as $service)
+                            <div class="mb-4 col-lg-4 col-md-6 col-sm-6 float-left">
+                                <div class="mb-1 col-lg-12 text-center"> 
+                                    <span class="service-icon {{ $service->getIcon() }}"></span>
+                                </div>
+                                <div class="col-lg-12 text-center">
+                                    <h6> {{ $service->getName() }} </h6>
+                                </div>
+                            </div>
+                            @endforeach
                         </div>
                     </div>
-                @endforeach
-                
-                </div>
+                    <!--End Services -->
+                    <!-- More Info -->
+                    <div class="col-lg-3 col-md-4 col-sm-12 float-left my-5 information-box border-bottom">
+                            <div class="information-box-title">
+                                <h6>Información de reservación</h6>
+                            </div>
+                            <p>Precio: {{ $cabin->getPrice() }}</p>
+                            <p>Hora de ingreso: 14:00 a 22:00</p>
+                            <p>Hora de salida: 13:00</p>
+                            <div class="btn-centered-container">
+                                <a href="#" class="primary-btn dark-btn  text-uppercase mt-2">Solicita una reservación</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End More Info -->
+                </section>
             </div>
+        </div>
 
-        </section>
-
+        <!-- Gallery -->
         <div class="whole-wrap">
             <div class="container">
                 <div class="section-top-border">
-                    <h3>Galer&iacute;a</h3>
+                    <h3 class="text-heading mb-5">Galer&iacute;a</h3>
                     <div class="row gallery-item">
+                        @php
+                            $i = true;
+                            $y = true;
+                        @endphp
                         @foreach ($cabin->getImages() as $image)
-                        <div class="col-md-4">
-                            <a href="{{ $image }}" class="img-gal"><div class="single-gallery-image" style="background: url({{ $image }});"></div></a>
-                        </div>
+                            @if ($i) 
+                                <div class="col-md-4">
+                                    <a href="{{ $image }}" class="img-gal"><div class="single-gallery-image" style="background: url({{ $image }});"></div></a>
+                                </div>
+                            @else
+                                <div class="col-md-8">
+                                    <a href="{{ $image }}" class="img-gal"><div class="single-gallery-image" style="background: url({{ $image }});"></div></a>
+                                </div>
+                            @endif
+                                @php
+                                    if($i == $y){
+                                        $i = !$i;
+                                    } else {
+                                        $y = $i;
+                                    }
+                                @endphp               
                         @endforeach
                     </div>
                 </div>
             </div>
         </div>
+        <!-- End Gallery -->
 
         
 
