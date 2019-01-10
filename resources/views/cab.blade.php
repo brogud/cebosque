@@ -90,7 +90,7 @@
 							<img class="img-fluid img-two" src="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/19944200_2202767743282859_9090087595524307707_o.jpg?_nc_cat=110&_nc_ht=scontent.fsyq1-1.fna&oh=43d7977f3179d1b42121cd7736ffc06f&oe=5CD128D5" alt="">
 						</div>
 						<div class="col-md-6 insurence-left">
-							<h1>Caba&ntilde;a La Lechuza</h1>
+							<h1>Caba&ntilde;a Lechuza</h1>
 							<p>Caba&ntilde;a equipada con art&iacute;culos b&aacute;sicos para la preparaci&oacute;n de alimentos, una sala en la planta baja, al igual en la planta alta posee un servicio sanitario junto con un ba&ntilde;o, dos habitaciones (una con dos camas matromoniales y a otra con una cama matrimonial), tambi&eacute;n contine un balc&oacute;n donde se observa el Valle de Turrialba, la Cordillera de Talamanca y la gran vegetaci&oacute;n presente a su alrededor donde pueden ser visitados por una serie de aves</p>
 							<a href="/cab/lechuza" class="primary-btn text-uppercase">Ver m&aacute;s</a>
 						</div>			
@@ -109,7 +109,7 @@
 						<div class="col-md-6 insurence-right">
                             <h1>Caba&ntilde;a orop&eacute;ndula</h1>
 							<p>Caba&ntilde;a equipada con cama matrimonial, ba&ntilde;o con ducha, refrigeradora, cocina el&eacute;ctrica, sillon para descanso, balc&oacute;n con vista a nuestro bosque en regeneraci&oacute;n.</p>
-							<a href="oropendula" class="primary-btn text-uppercase">Ver m&aacute;s</a>
+							<a href="/cab/oropendula" class="primary-btn text-uppercase">Ver m&aacute;s</a>
                         </div>
 					</div>
 				</div>	
