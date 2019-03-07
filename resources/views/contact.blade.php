@@ -31,11 +31,10 @@
 
         <section class="contact-page-area section-gap">
 				<div class="container">
+				<!-- Contact Form section -->
+					<h3 class="text-heading" id="contact-form-section">Envíanos tu consulta</h3>
 					<div class="row">
-                        <div class="map-wrap" style="width:100%; height: 445px;">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.8151753518464!2d-83.69717438554252!3d9.949330692885924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0d146ca84fd67%3A0x50e598d966bdb16d!2sCaba%C3%B1as+El+Bosque!5e0!3m2!1ses!2scr!4v1545593897910" width="100%"" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-                        <div class="col-lg-4 d-flex flex-column address-wrap">
+						<div class="col-lg-4 d-flex flex-column address-wrap">
 							<div class="single-contact-address d-flex flex-row">
 								<div class="icon">
 									<span class="lnr lnr-home"></span>
@@ -72,9 +71,7 @@
 								<div class="row">	
 									<div class="col-lg-6 form-group">
 										<input name="name" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-									
 										<input name="email" placeholder="Correo electr&oacute;nico" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
-
 										<input name="subject" placeholder="Asunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
 									</div>
 									<div class="col-lg-6 form-group">
@@ -87,6 +84,13 @@
 								</div>
 							</form>	
 						</div>
+					</div>
+					<!-- Google map section -->
+					<h3 class="text-heading">Nos encontramos en:</h3>
+					<div class="row">
+                        <div class="map-wrap" style="width:100%; height: 445px;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.8151753518464!2d-83.69717438554252!3d9.949330692885924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0d146ca84fd67%3A0x50e598d966bdb16d!2sCaba%C3%B1as+El+Bosque!5e0!3m2!1ses!2scr!4v1545593897910" width="100%"" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
 					</div>
 				</div>	
 			</section>
