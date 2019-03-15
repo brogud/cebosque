@@ -83,7 +83,7 @@
                             <p>Hora de ingreso: 14:00 a 22:00</p>
                             <p>Hora de salida: 13:00</p>
                             <div class="btn-centered-container">
-                                <a href="#" class="primary-btn dark-btn  text-uppercase mt-2">Solicita una reservación</a>
+                                <a href="/contact#contact-form-section" class="primary-btn dark-btn  text-uppercase mt-2">Solicita una reservación</a>
                             </div>
                         </div>
                     </div>
