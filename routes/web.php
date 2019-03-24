@@ -17,6 +17,8 @@ Route::get('/about', 'IndexController@about');
 
 Route::get('/contact', 'IndexController@contact');
 
+Route::post('/sendcontact', 'EmailController@sendEmailContact');
+
 Route::get('/rest', 'IndexController@rest');
 
 Route::get('/attractions', 'IndexController@attraction');
