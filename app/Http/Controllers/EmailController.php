@@ -11,22 +11,27 @@ use Redirect,Response,DB,Config;
 class EmailController extends Controller
 {
     public function sendEmailContact(Request $request){
-          
+         
           if($this->validate($request, [
                "name" => "required",
                "email" => "required",
                "subject" => "required",
+               "phone" => "required",
                "message" => "required"
           ])){
-
-               Mail::to(env('MAIL_USERNAME'))
-                    ->cc(env('MAIL_CC_USERNAME'))
+       
+               try{
+                    Mail::to(env('MAIL_USERNAME'))
+                    ->cc($request['email'])
                     ->send(new Email('emails.contact', $request));
+               }catch(Exception $e){
+                    return response()->json(['success'=>'false']);
+               }    
 
-               return redirect()->action('IndexController@contact');
+              return response()->json(['success'=>'true']);
 
           }else{
-               return redirect()->action('IndexController@index');
+               return response()->json(['success'=>'false']);
           }
     }
 }

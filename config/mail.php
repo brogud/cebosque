@@ -57,7 +57,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'cabanaselbosquecr@gmail.com'),
-        'name' => env('MAIL_FROM_NAME', 'Mensaje de la página web'),
+        'name' => env('MAIL_FROM_NAME', 'Cabanas El Bosque'),
     ],
 
     /*

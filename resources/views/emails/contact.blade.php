@@ -1,17 +1,14 @@
-@include('head')
-
-            <!-- CSS -->
-            <link rel="stylesheet" href="{{ URL::asset('/css/linearicons.css') }}">
-            <link rel="stylesheet" href="{{ URL::asset('/css/font-awesome.min.css') }}">
-            <link rel="stylesheet" href="{{ URL::asset('/css/bootstrap.css') }}">
-            <link rel="stylesheet" href="{{ URL::asset('/css/magnific-popup.css') }}">
-            <link rel="stylesheet" href="{{ URL::asset('/css/jquery-ui.css') }}">				
-            <link rel="stylesheet" href="{{ URL::asset('/css/nice-select.css') }}">							
-            <link rel="stylesheet" href="{{ URL::asset('/css/animate.min.css') }}">
-            <link rel="stylesheet" href="{{ URL::asset('/css/owl.carousel.css') }}">				
-            <link rel="stylesheet" href="{{ URL::asset('/css/main.css') }}">
-</head>  
-
 <body>
-
+    <div style="background-color: #FFFEEE; border: 1px solid #bdbdbd; color:black;">
+            <div class="message" style="margin-left: 10px;">
+            <h2 style="text-align: center;">Informaci&oacute;n del solicitante</h2>
+            <p><strong>Nombre: </strong>{{ $params->name }}</p>
+            <p><strong>Tel&eacute;fono: </strong>{{ $params->phone }}</p>
+            <p><strong>Correo electr&oacute;nico: </strong>{{ $params->email }}</p>
+            <p><strong>Asunto: </strong>{{ $params->subject }}</p>
+            <p><strong>Mensaje: </strong><br><br>{{ $params->message }}</p>
+            <br>
+            <p>Gracias por contactarnos, responderemos lo m&aacute;s pronto posible.</p>
+        </div>
+    </div>
 </body>

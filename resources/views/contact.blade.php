@@ -9,7 +9,11 @@
             <link rel="stylesheet" href="{{ URL::asset('/css/nice-select.css') }}">							
             <link rel="stylesheet" href="{{ URL::asset('/css/animate.min.css') }}">
             <link rel="stylesheet" href="{{ URL::asset('/css/owl.carousel.css') }}">				
-            <link rel="stylesheet" href="{{ URL::asset('/css/main.css') }}">
+			<link rel="stylesheet" href="{{ URL::asset('/css/main.css') }}">
+			<link rel="stylesheet" href="{{ URL::asset('/css/customCss.css') }}">
+			<link rel="stylesheet" href="{{ URL::asset('/css/snackbar.css') }}">
+			
+			<meta name="csrf-token" content="{{ csrf_token() }}">
     </head>  
 
     <body>
@@ -67,20 +71,22 @@
 							</div>														
 						</div>
 						<div class="col-lg-8">
-							<form class="form-area contact-form text-right" id="contactForm" action="/sendcontact" method="POST">
+							<form class="form-area contact-form text-right" id="contactForm">
 								<div class="row">	
 									<div class="col-lg-6 form-group">
 										{{ csrf_field() }}
-										<input name="name" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
-										<input name="email" placeholder="Correo electr&oacute;nico" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
-										<input name="subject" placeholder="Asunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
+										<input id="name" name="name" placeholder="Nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingrese su nombre'" class="common-input mb-20 form-control" required="" type="text">
+										<input id="email" name="email" placeholder="Correo electr&oacute;nico" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+										<input id="subject" name="subject" placeholder="Asunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingrese elasunto'" class="common-input mb-20 form-control" required="" type="text">
+										<input id="phone" name="phone" placeholder="Telefono" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingrese el telefono'" class="form-control bfh-phone" pattern="^[0-9-+s()]*$" required="" type="text">
 									</div>
 									<div class="col-lg-6 form-group">
-										<textarea class="common-textarea form-control" name="message" placeholder="Mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>				
+										<textarea class="common-textarea form-control" id="message" name="message" placeholder="Mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required="" style="height: 260px;" maxlength="2000"></textarea>				
 									</div>
 									<div class="col-lg-12">
 										<div class="alert-msg" style="text-align: left;"></div>
-										<button class="genric-btn primary" style="float: right;">Enviar mensaje</button>											
+										<button id="submitContact" class="genric-btn primary" style="float: right;">Enviar mensaje</button>											
+										<div id="roller" class="lds-roller mfp-hide"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 									</div>
 								</div>
 							</form>	
@@ -99,7 +105,7 @@
     
         @include('footer')
 
-        <script src="{{ URL::asset('/js/vendor/jquery-2.2.4.min.js') }}"></script>
+		<script src="{{ URL::asset('/js/vendor/jquery-2.2.4.min.js') }}"></script>
         <script src="{{ URL::asset('/js/popper.min.js') }}"></script>
         <script src="{{ URL::asset('/js/vendor/bootstrap.min.js') }}"></script>			
         <script src="{{ URL::asset('/js/jquery-ui.js') }}"></script>					
@@ -111,7 +117,9 @@
         <script src="{{ URL::asset('/js/jquery.nice-select.min.js') }}"></script>					
         <script src="{{ URL::asset('/js/owl.carousel.min.js') }}"></script>							
         <script src="{{ URL::asset('/js/mail-script.js') }}"></script>	
-        <script src="{{ URL::asset('/js/main.js') }}"></script>	
+		<script src="{{ URL::asset('/js/main.js') }}"></script>	
+		<script src="{{ URL::asset('/js/scripts.js') }}"></script>
+		<script src="{{ URL::asset('/js/snackbar.min.js') }}"></script>
 
     </body>
 </html>

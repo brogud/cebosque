@@ -36,6 +36,9 @@ class Email extends Mailable
     {
         $params = $this->params;
 
-        return $this->view($this->stringView, compact("params"))->subject($this->params->subject);
+        return $this->view($this->stringView, compact("params"))->subject($this->params->subject)
+                ->with([
+                    'params' => $this->params
+                ]);
     }
 }
