@@ -7,9 +7,9 @@ use App\Entity\Service;
 
 class Cabin {
     
+    private $identifier;
     private $name;
     private $description;
-    private $price;
     private $features;
     private $services;
     private $images;
@@ -18,6 +18,26 @@ class Cabin {
         $this->images = array();
         $this->features = array();
         $this->services = array();
+    }
+
+    /**
+     * Get the value of identifier
+     */ 
+    public function getIdentifier()
+    {
+        return $this->identifier;
+    }
+
+    /**
+     * Set the value of identifier
+     *
+     * @return  self
+     */ 
+    public function setIdentifier($identifier)
+    {
+        $this->identifier = $identifier;
+
+        return $this;
     }
 
     /**
@@ -56,26 +76,6 @@ class Cabin {
     public function setDescription($description)
     {
         $this->description = $description;
-
-        return $this;
-    }
-
-    /**
-     * Get the value of price
-     */ 
-    public function getPrice()
-    {
-        return $this->price;
-    }
-
-    /**
-     * Set the value of price
-     *
-     * @return  self
-     */ 
-    public function setPrice($price)
-    {
-        $this->price = $price;
 
         return $this;
     }

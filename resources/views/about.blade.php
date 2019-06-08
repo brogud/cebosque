@@ -16,9 +16,9 @@
     <body>
         @include('header')
 
-        <section class="relative about-banner">	
+        <section class="relative about-banner">
             <div class="overlay overlay-bg"></div>
-            <div class="container">				
+            <div class="container">
                 <div class="row d-flex align-items-center justify-content-center">
                     <div class="about-content col-lg-12">
                         <h1 class="text-white">
@@ -34,7 +34,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 info-left">
-                        <img class="img-fluid" src="https://scontent.fsyq1-1.fna.fbcdn.net/v/t31.0-8/15025100_2044150449144590_5670914630885840114_o.jpg?_nc_cat=101&_nc_ht=scontent.fsyq1-1.fna&oh=887c393b976477ceda6fad3826e2b6c4&oe=5C8FD7B6" alt="">
+                        <img class="img-fluid" src="img/aboutUs.jpg" alt="">
                     </div>
                     <div class="col-lg-6 info-right">
                         <h6>Sobre nosotros</h6>

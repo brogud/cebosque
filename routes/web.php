@@ -21,22 +21,6 @@ Route::get('/rest', 'IndexController@rest');
 
 Route::get('/attractions', 'IndexController@attraction');
 
-Route::get('/cab', 'IndexController@cab');
+Route::get('/cab', 'CabController@showAllCabs');
 
-Route::get('/cab/{cabName}', 'IndexController@showCab');
-
-/*
-Route::get('/cab/{id}', 'IndexController@show')->where('id','[0-9]+');
-*/
-/*
-Route::get('/cab/new', function () {
-    return "New";
-});
-
-Route::get('/saludo/{name}/{nickname?}', function ($name, $nickname = null) {
-    if($nickname){
-        return "{$nickname}";
-    }else{
-        return "{$name}";
-    }
-});*/
+Route::get('/cab/{cabName}', 'CabController@showCab');
