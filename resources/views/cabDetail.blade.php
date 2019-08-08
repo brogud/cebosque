@@ -77,13 +77,12 @@
                     <!-- More Info -->
                     <div class="col-lg-3 col-md-4 col-sm-12 float-left my-5 information-box border-bottom">
                             <div class="information-box-title">
-                                <h6>Información de reservación</h6>
+                                <h6>Informaci&oacute;n de reservaci&oacute;n</h6>
                             </div>
-                            <p>Precio: {{ $cabin->getPrice() }}</p>
                             <p>Hora de ingreso: 14:00 a 22:00</p>
                             <p>Hora de salida: 13:00</p>
                             <div class="btn-centered-container">
-                                <a href="/contact#contact-form-section" class="primary-btn dark-btn  text-uppercase mt-2">Solicita una reservación</a>
+                                <a href="/contact#contact-form-section" class="primary-btn dark-btn  text-uppercase mt-2">M&aacute;s informaci&oacute;n</a>
                             </div>
                         </div>
                     </div>
@@ -105,11 +104,11 @@
                         @foreach ($cabin->getImages() as $image)
                             @if ($i) 
                                 <div class="col-md-4">
-                                    <a href="{{ $image }}" class="img-gal"><div class="single-gallery-image" style="background: url({{ $image }});"></div></a>
+                                    <a href="{{ asset('img/CabPictures/' . $image) }}" class="img-gal"><div class="single-gallery-image" style="background: url({{ asset('img/CabPictures/' . $image) }});"></div></a>
                                 </div>
                             @else
                                 <div class="col-md-8">
-                                    <a href="{{ $image }}" class="img-gal"><div class="single-gallery-image" style="background: url({{ $image }});"></div></a>
+                                    <a href="{{ asset('img/CabPictures/' . $image) }}" class="img-gal"><div class="single-gallery-image" style="background: url({{ asset('img/CabPictures/' . $image) }});"></div></a>
                                 </div>
                             @endif
                                 @php
