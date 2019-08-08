@@ -24,3 +24,7 @@ Route::get('/attractions', 'IndexController@attraction');
 Route::get('/cab', 'CabController@showAllCabs');
 
 Route::get('/cab/{cabName}', 'CabController@showCab');
+=======
+Route::get('/cab/{cabName}', 'IndexController@showCab');
+
+Route::post('/sendcontact', 'EmailController@sendEmailContact');
